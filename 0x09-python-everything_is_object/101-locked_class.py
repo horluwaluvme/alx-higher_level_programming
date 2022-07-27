@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+
 class LockedClass:
-
-    __slots__ = ['first_name']
-
-    def __init__(self, first_name=''):
-        self.first_name = first_name
+    """
+    This class dynamically prevents the user from creating new
+    instance attributes, except if the new instance attribute
+    is called name
+    """
+    __slots__ = ["name"]
