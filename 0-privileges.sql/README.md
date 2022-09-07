@@ -1,0 +1,1 @@
+0x0E. SQL - More queries, MySQL query is any command that used to retrieve the data from a table. MySQL can be used for querying the data, filtering data, sorting data, joining the tables, grouping data, modifying the data.
